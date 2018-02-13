@@ -1,0 +1,21 @@
+html {
+    background-color: grey;
+}
+
+canvas {
+    margin-top: 10px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+#generate {
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+#nav {
+    text-align: center;
+}
