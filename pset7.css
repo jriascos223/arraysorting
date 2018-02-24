@@ -19,3 +19,27 @@ canvas {
 #nav {
     text-align: center;
 }
+
+.center {
+    padding-top:5px;
+    text-align:center;
+    display:block;
+    margin-left:50%;
+    transform:translate(-50%);
+}
+
+#valueHolder {
+    color:white;
+}
+
+#slider {
+    width:200px;
+    margin-right:30px;
+}
+
+button {
+    height:30px;
+}
+
+
+

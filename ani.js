@@ -1,1 +1,449 @@
-var _0xe9c8=["\x63\x61\x6E\x76\x61\x73","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x32\x64","\x67\x65\x74\x43\x6F\x6E\x74\x65\x78\x74","\x63\x6C\x65\x61\x72\x52\x65\x63\x74","\x66\x69\x6C\x6C\x53\x74\x79\x6C\x65","\x23\x33\x33\x39\x39\x66\x66","\x66\x6F\x6E\x74","\x32\x30\x70\x78\x20\x61\x72\x69\x61\x6C","\x66\x69\x6C\x6C\x52\x65\x63\x74","\x6C\x65\x6E\x67\x74\x68","\x62\x6C\x61\x63\x6B","\x66\x69\x6C\x6C\x54\x65\x78\x74","\x6C\x69\x6E\x65","\x45\x6E\x74\x65\x72\x20\x79\x6F\x75\x72\x20\x74\x61\x72\x67\x65\x74\x3A\x20","\x45\x6E\x74\x65\x72\x20\x74\x68\x65\x20\x73\x70\x65\x65\x64\x3A","\x4C\x69\x6E\x65\x61\x72\x20\x53\x65\x61\x72\x63\x68","\x67\x72\x65\x65\x6E","\x72\x65\x64","\x62\x69\x6E\x61\x72\x79","\x45\x6E\x74\x65\x72\x20\x79\x6F\x75\x72\x20\x64\x65\x6C\x61\x79\x3A\x20","\x42\x69\x6E\x61\x72\x79\x20\x53\x65\x61\x72\x63\x68","\x66\x6C\x6F\x6F\x72","\x63\x79\x61\x6E","\x67\x72\x65\x79","\x62\x75\x62\x62\x6C\x65","\x65\x6E\x74\x65\x72\x20\x79\x6F\x75\x72\x20\x64\x65\x6C\x61\x79\x3A\x20","\x6F\x72\x61\x6E\x67\x65","\x6C\x6F\x67","\x73\x65\x6C\x65\x63\x74\x69\x6F\x6E","\x65\x6E\x74\x65\x72\x20\x74\x68\x65\x20\x64\x65\x6C\x61\x79\x3A\x20","\x69\x6E\x73\x65\x72\x74\x69\x6F\x6E"];var positionsX=[5,38,71,104,137,170,203,236,269,302,335,368,401,434,467];var draw;function drawArray(_0xebadx4){var _0xebadx5=document[_0xe9c8[1]](_0xe9c8[0]);if(_0xebadx4== true){clearInterval(draw)};var _0xebadx6=_0xebadx5[_0xe9c8[3]](_0xe9c8[2]);var _0xebadx7;_0xebadx6[_0xe9c8[4]](0,0,500,300);for(var _0xebadx8=0;_0xebadx8< 15;_0xebadx8++){var _0xebadx9=tempArray[_0xebadx8].toString();_0xebadx6[_0xe9c8[5]]= _0xe9c8[6];_0xebadx6[_0xe9c8[7]]= _0xe9c8[8];_0xebadx6[_0xe9c8[9]](positionsX[_0xebadx8],300- tempArray[_0xebadx8]* 3,28,tempArray[_0xebadx8]* 3);if(_0xebadx9[_0xe9c8[10]]== 1){_0xebadx7= 8}else {if(_0xebadx9[_0xe9c8[10]]== 2){_0xebadx7= 3}};_0xebadx6[_0xe9c8[5]]= _0xe9c8[11];_0xebadx6[_0xe9c8[12]](tempArray[_0xebadx8],positionsX[_0xebadx8]+ _0xebadx7,300- (tempArray[_0xebadx8]* 3+ 3))}}function animateThis(_0xebadxb){if(_0xebadxb=== _0xe9c8[13]){var _0xebadxc=+prompt(_0xe9c8[14]);var _0xebadxd=+prompt(_0xe9c8[15]);drawArray(true);var _0xebadx5=document[_0xe9c8[1]](_0xe9c8[0]);var _0xebadx6=_0xebadx5[_0xe9c8[3]](_0xe9c8[2]);var _0xebadxe=true;_0xebadx6[_0xe9c8[7]]= _0xe9c8[8];_0xebadx6[_0xe9c8[12]](_0xe9c8[16],190,30);var _0xebadx8=0;draw= setInterval(function(){if(isNaN(_0xebadxc)|| isNaN(_0xebadxd)){clearInterval(draw)};if(_0xebadx8> 0&&  !_0xebadxe){_0xebadx6[_0xe9c8[4]](positionsX[_0xebadx8- 1],300- tempArray[_0xebadx8- 1]* 3,28,tempArray[_0xebadx8- 1]* 3);_0xebadx6[_0xe9c8[5]]= _0xe9c8[6];_0xebadx6[_0xe9c8[9]](positionsX[_0xebadx8- 1],300- tempArray[_0xebadx8- 1]* 3,28,tempArray[_0xebadx8- 1]* 3)};if(tempArray[_0xebadx8]== _0xebadxc){_0xebadx6[_0xe9c8[4]](positionsX[_0xebadx8],300- tempArray[_0xebadx8]* 3,28,tempArray[_0xebadx8]* 3);_0xebadx6[_0xe9c8[5]]= _0xe9c8[17];_0xebadx6[_0xe9c8[9]](positionsX[_0xebadx8],300- tempArray[_0xebadx8]* 3,28,tempArray[_0xebadx8]* 3);_0xebadxe= true}else {_0xebadx6[_0xe9c8[4]](positionsX[_0xebadx8],300- tempArray[_0xebadx8]* 3,28,tempArray[_0xebadx8]* 3);_0xebadx6[_0xe9c8[5]]= _0xe9c8[18];_0xebadx6[_0xe9c8[9]](positionsX[_0xebadx8],300- tempArray[_0xebadx8]* 3,28,tempArray[_0xebadx8]* 3);_0xebadxe= false};_0xebadx8++},_0xebadxd);if(_0xebadx8> tempArray[_0xe9c8[10]]){clearInterval(draw)}}else {if(_0xebadxb== _0xe9c8[19]){drawArray(true);var _0xebadxc=+prompt(_0xe9c8[14]);var _0xebadxd=+prompt(_0xe9c8[20]);var _0xebadx5=document[_0xe9c8[1]](_0xe9c8[0]);var _0xebadx6=_0xebadx5[_0xe9c8[3]](_0xe9c8[2]);_0xebadx6[_0xe9c8[7]]= _0xe9c8[8];_0xebadx6[_0xe9c8[5]]= _0xe9c8[11];_0xebadx6[_0xe9c8[12]](_0xe9c8[21],190,30);var _0xebadxf=0;var _0xebadx10=tempArray[_0xe9c8[10]]- 1;var _0xebadx11=Math[_0xe9c8[22]]((_0xebadx10+ _0xebadxf)/ 2);_0xebadx6[_0xe9c8[5]]= _0xe9c8[23];_0xebadx6[_0xe9c8[9]](positionsX[_0xebadx11],300- tempArray[_0xebadx11]* 3,28,tempArray[_0xebadx11]* 3);var _0xebadx12=0;draw= setInterval(function(){_0xebadx6[_0xe9c8[7]]= _0xe9c8[8];_0xebadx6[_0xe9c8[5]]= _0xe9c8[11];_0xebadx6[_0xe9c8[12]](_0xe9c8[21],190,30);_0xebadx6[_0xe9c8[4]](0,0,500,300);drawArray();_0xebadx6[_0xe9c8[7]]= _0xe9c8[8];_0xebadx6[_0xe9c8[5]]= _0xe9c8[11];_0xebadx6[_0xe9c8[12]](_0xe9c8[21],190,30);if(tempArray[_0xebadx11]!= _0xebadxc&& _0xebadxf< _0xebadx10){_0xebadx6[_0xe9c8[5]]= _0xe9c8[23];_0xebadx6[_0xe9c8[9]](positionsX[_0xebadx11],300- tempArray[_0xebadx11]* 3,28,tempArray[_0xebadx11]* 3);if(_0xebadxc< tempArray[_0xebadx11]){_0xebadx10= _0xebadx11- 1;var _0xebadx8=_0xebadxf;for(var _0xebadx8=_0xebadxf;_0xebadx8<= _0xebadx10;_0xebadx8++){_0xebadx6[_0xe9c8[4]](positionsX[_0xebadx8],300- tempArray[_0xebadx8]* 3,28,tempArray[_0xebadx8]* 3);_0xebadx6[_0xe9c8[5]]= _0xe9c8[24];_0xebadx6[_0xe9c8[9]](positionsX[_0xebadx8],300- tempArray[_0xebadx8]* 3,28,tempArray[_0xebadx8]* 3)}}else {if(_0xebadxc> tempArray[_0xebadx11]){_0xebadxf= _0xebadx11+ 1;for(var _0xebadx8=_0xebadxf;_0xebadx8<= _0xebadx10;_0xebadx8++){_0xebadx6[_0xe9c8[4]](positionsX[_0xebadx8],300- tempArray[_0xebadx8]* 3,28,tempArray[_0xebadx8]* 3);_0xebadx6[_0xe9c8[5]]= _0xe9c8[24];_0xebadx6[_0xe9c8[9]](positionsX[_0xebadx8],300- tempArray[_0xebadx8]* 3,28,tempArray[_0xebadx8]* 3)}}};_0xebadx11= Math[_0xe9c8[22]]((_0xebadx10+ _0xebadxf)/ 2)}else {if(_0xebadxc== tempArray[_0xebadx11]){_0xebadx6[_0xe9c8[5]]= _0xe9c8[17];_0xebadx6[_0xe9c8[9]](positionsX[_0xebadx11],300- tempArray[_0xebadx11]* 3,28,tempArray[_0xebadx11]* 3);clearInterval(draw)}};_0xebadx12++},_0xebadxd)}else {if(_0xebadxb== _0xe9c8[25]){var _0xebadx5=document[_0xe9c8[1]](_0xe9c8[0]);var _0xebadxd=+prompt(_0xe9c8[26]);var _0xebadx6=_0xebadx5[_0xe9c8[3]](_0xe9c8[2]);var _0xebadx8=0;var _0xebadx13;var _0xebadx14=false;_0xebadx6[_0xe9c8[5]]= _0xe9c8[17];_0xebadx6[_0xe9c8[9]](positionsX[_0xebadx8],300- tempArray[_0xebadx8]* 3,28,tempArray[_0xebadx8]* 3);_0xebadx6[_0xe9c8[5]]= _0xe9c8[27];_0xebadx6[_0xe9c8[9]](positionsX[_0xebadx8+ 1],300- tempArray[_0xebadx8+ 1]* 3,28,tempArray[_0xebadx8+ 1]* 3);setTimeout(draw,_0xebadxd);var _0xebadx12=0;draw= setInterval(function(){console[_0xe9c8[28]](_0xebadx8);drawArray();if(_0xebadx8< tempArray[_0xe9c8[10]]- 1){if(tempArray[_0xebadx8]> tempArray[_0xebadx8+ 1]){_0xebadx6[_0xe9c8[4]](0,0,500,300);var _0xebadx15=tempArray[_0xebadx8];tempArray[_0xebadx8]= tempArray[_0xebadx8+ 1];tempArray[_0xebadx8+ 1]= _0xebadx15;drawArray()}else {if(isSorted(tempArray)){clearInterval(draw);var _0xebadx16=true}};if(!_0xebadx16){_0xebadx6[_0xe9c8[5]]= _0xe9c8[17];_0xebadx6[_0xe9c8[9]](positionsX[_0xebadx8+ 1],300- tempArray[_0xebadx8+ 1]* 3,28,tempArray[_0xebadx8+ 1]* 3);_0xebadx6[_0xe9c8[5]]= _0xe9c8[27];_0xebadx6[_0xe9c8[9]](positionsX[_0xebadx8+ 2],300- tempArray[_0xebadx8+ 2]* 3,28,tempArray[_0xebadx8+ 2]* 3)};_0xebadx8++}else {_0xebadx8= 0;_0xebadx6[_0xe9c8[5]]= _0xe9c8[17];_0xebadx6[_0xe9c8[9]](positionsX[_0xebadx8],300- tempArray[_0xebadx8]* 3,28,tempArray[_0xebadx8]* 3);_0xebadx6[_0xe9c8[5]]= _0xe9c8[27];_0xebadx6[_0xe9c8[9]](positionsX[_0xebadx8+ 1],300- tempArray[_0xebadx8+ 1]* 3,28,tempArray[_0xebadx8+ 1]* 3)}},_0xebadxd)}else {if(_0xebadxb== _0xe9c8[29]){var _0xebadx5=document[_0xe9c8[1]](_0xe9c8[0]);var _0xebadx6=_0xebadx5[_0xe9c8[3]](_0xe9c8[2]);var _0xebadxd=+prompt(_0xe9c8[30]);var _0xebadx17;var _0xebadx8=0;var _0xebadx17=0;var _0xebadx18=0;draw= setInterval(function(){drawArray();_0xebadx6[_0xe9c8[5]]= _0xe9c8[27];_0xebadx6[_0xe9c8[9]](positionsX[_0xebadx17],300- tempArray[_0xebadx17]* 3,28,tempArray[_0xebadx17]* 3);if(_0xebadx8<= tempArray[_0xe9c8[10]]){_0xebadx6[_0xe9c8[5]]= _0xe9c8[17];_0xebadx6[_0xe9c8[9]](positionsX[_0xebadx8],300- tempArray[_0xebadx8]* 3,28,tempArray[_0xebadx8]* 3);if(tempArray[_0xebadx8]< tempArray[_0xebadx17]){_0xebadx6[_0xe9c8[4]](positionsX[_0xebadx17],300- tempArray[_0xebadx17]* 3,28,tempArray[_0xebadx17]* 3);_0xebadx6[_0xe9c8[5]]= _0xe9c8[6];_0xebadx6[_0xe9c8[9]](positionsX[_0xebadx17],300- tempArray[_0xebadx17]* 3,28,tempArray[_0xebadx17]* 3);_0xebadx17= _0xebadx8;_0xebadx6[_0xe9c8[5]]= _0xe9c8[27];_0xebadx6[_0xe9c8[9]](positionsX[_0xebadx8],300- tempArray[_0xebadx8]* 3,28,tempArray[_0xebadx8]* 3)};_0xebadx8++}else {if(_0xebadx18== tempArray[_0xe9c8[10]]){clearInterval(draw)};if(tempArray[_0xebadx17]== tempArray[_0xebadx18]){drawArray();console[_0xe9c8[28]](tempArray);_0xebadx8= 1+ _0xebadx18;_0xebadx18++;_0xebadx17= _0xebadx18}else {var _0xebadx15=tempArray[_0xebadx18];tempArray[_0xebadx18]= tempArray[_0xebadx17];tempArray[_0xebadx17]= _0xebadx15;drawArray();console[_0xe9c8[28]](tempArray);_0xebadx8= 1+ _0xebadx18;_0xebadx18++;_0xebadx17= _0xebadx18}}},_0xebadxd)}else {if(_0xebadxb== _0xe9c8[31]){var _0xebadxd=+prompt(_0xe9c8[20]);var _0xebadx5=document[_0xe9c8[1]](_0xe9c8[0]);var _0xebadx6=_0xebadx5[_0xe9c8[3]](_0xe9c8[2]);var _0xebadx19=0;var _0xebadx1a=1;var _0xebadx12=1;var _0xebadx1b=true;draw= setInterval(function(){drawArray();if(_0xebadx19< 0){_0xebadx19= _0xebadx12- 1;_0xebadx1a= _0xebadx12};if(tempArray[_0xebadx19]> tempArray[_0xebadx1a]){drawArray();_0xebadx6[_0xe9c8[5]]= _0xe9c8[17];_0xebadx6[_0xe9c8[9]](positionsX[_0xebadx19],300- tempArray[_0xebadx19]* 3,28,tempArray[_0xebadx19]* 3);_0xebadx6[_0xe9c8[9]](positionsX[_0xebadx1a],300- tempArray[_0xebadx1a]* 3,28,tempArray[_0xebadx1a]* 3);var _0xebadx15=tempArray[_0xebadx1a];tempArray[_0xebadx1a]= tempArray[_0xebadx19];tempArray[_0xebadx19]= _0xebadx15;_0xebadx19--;_0xebadx1a--}else {if(tempArray[_0xebadx19]<= tempArray[_0xebadx1a]){drawArray();_0xebadx6[_0xe9c8[5]]= _0xe9c8[18];_0xebadx6[_0xe9c8[9]](positionsX[_0xebadx19],300- tempArray[_0xebadx19]* 3,28,tempArray[_0xebadx19]* 3);_0xebadx6[_0xe9c8[9]](positionsX[_0xebadx1a],300- tempArray[_0xebadx1a]* 3,28,tempArray[_0xebadx1a]* 3);_0xebadx12++;_0xebadx19= _0xebadx12- 1;_0xebadx1a= _0xebadx12}};if(_0xebadx12== 15){_0xebadx1b= false;drawArray()};if(_0xebadx1b== false){clearInterval(draw)}},_0xebadxd)}}}}}}
+//fixed x positions for the canvas that allow for the bars to be evenly divided at a width of 28 and about 5px of space between each bar
+//it made it simpler to draw the bars, but sacrifices allowing for any length array
+var positionsX = [
+  5,
+  38,
+  71,
+  104,
+  137,
+  170,
+  203,
+  236,
+  269,
+  302,
+  335,
+  368,
+  401,
+  434,
+  467
+];
+//draw global variable will hold the interval that controls all the animations
+var draw;
+//first let's work out how to get an array on the canvas...
+function drawArray(clear) {
+  var canvas = document.getElementById("canvas");
+
+  //just to make sure I can stop whatever interval I need while drawing
+  if (clear == true) {
+    //literally searches all timeouts in the file and exterminates them
+    //ended up finding this online cause I just couldn't clear the timeouts I had
+    let id = window.setTimeout(() => {}, 0);
+    console.log(id);
+    while (id) {
+      window.clearTimeout(id);
+      id--;
+    }
+
+    id = window.setInterval(() => {}, 0);
+    console.log(id);
+    while (id) {
+      window.clearInterval(id);
+      id--;
+    }
+  }
+
+  var ctx = canvas.getContext("2d");
+  //holds the necessary pixel offset to make 1 digit numbers appear similar to 2 digit numbers
+  var offset;
+  //clear just in case
+  ctx.clearRect(0, 0, 500, 300);
+  //for each value in tempArray, shade it in a light blue with the x coordinate defined in positionsX[] above
+  for (var i = 0; i < 15; i++) {
+    var current = tempArray[i].toString();
+    ctx.fillStyle = "#3399ff";
+    ctx.font = "20px arial";
+    ctx.fillRect(positionsX[i], 300 - tempArray[i] * 3, 28, tempArray[i] * 3);
+    //calculates the length of the current number
+    if (current.length == 1) {
+      offset = 8;
+    } else if (current.length == 2) {
+      offset = 3;
+    }
+    //uses offset to draw numbers above bars.
+    ctx.fillStyle = "black";
+    ctx.fillText(
+      tempArray[i],
+      positionsX[i] + offset,
+      300 - (tempArray[i] * 3 + 3)
+    );
+  }
+}
+
+//single animate function that does everything. REALLY messy but it works
+async function animateThis(algo) {
+  if (algo === "line") {
+    var target = +prompt("Enter your target: ");
+    var delay = speed;
+    drawArray(true); // needs to clear interval
+    var canvas = document.getElementById("canvas");
+    var ctx = canvas.getContext("2d");
+    var lastIsTarget = true;
+    ctx.font = "20px arial";
+    ctx.fillText("Linear Search", 190, 30);
+    var i = 0;
+    (function draw() {
+      if (isNaN(target) || isNaN(delay)) {
+        clearTimeout(draw);
+      }
+      if (i > 0 && !lastIsTarget) {
+        ctx.clearRect(
+          positionsX[i - 1],
+          300 - tempArray[i - 1] * 3,
+          28,
+          tempArray[i - 1] * 3
+        );
+        ctx.fillStyle = "#3399ff";
+        ctx.fillRect(
+          positionsX[i - 1],
+          300 - tempArray[i - 1] * 3,
+          28,
+          tempArray[i - 1] * 3
+        );
+      }
+      if (tempArray[i] == target) {
+        ctx.clearRect(
+          positionsX[i],
+          300 - tempArray[i] * 3,
+          28,
+          tempArray[i] * 3
+        );
+        ctx.fillStyle = "green";
+        ctx.fillRect(
+          positionsX[i],
+          300 - tempArray[i] * 3,
+          28,
+          tempArray[i] * 3
+        );
+        lastIsTarget = true;
+      } else {
+        ctx.clearRect(
+          positionsX[i],
+          300 - tempArray[i] * 3,
+          28,
+          tempArray[i] * 3
+        );
+        ctx.fillStyle = "red";
+        ctx.fillRect(
+          positionsX[i],
+          300 - tempArray[i] * 3,
+          28,
+          tempArray[i] * 3
+        );
+        lastIsTarget = false;
+      }
+      i++;
+      setTimeout(draw, speed);
+    })();
+  } else if (algo == "binary") {
+    drawArray(true); //needs to clear interval
+    var target = +prompt("Enter your target: ");
+    var delay = speed;
+    var canvas = document.getElementById("canvas");
+    var ctx = canvas.getContext("2d");
+    ctx.font = "20px arial";
+    ctx.fillStyle = "black";
+    ctx.fillText("Binary Search", 190, 30);
+    var startIndex = 0;
+    var stopIndex = tempArray.length - 1;
+    var middle = Math.floor((stopIndex + startIndex) / 2);
+    //first initially draw middle
+    ctx.fillStyle = "cyan";
+    ctx.fillRect(
+      positionsX[middle],
+      300 - tempArray[middle] * 3,
+      28,
+      tempArray[middle] * 3
+    );
+    var counter = 0;
+
+    (function draw() {
+      if (document.getElementById("slider").value != delay) {
+        delay = document.getElementById("slider").value;
+        console.log(delay);
+      }
+      //clear any residual grey / repaint array
+      ctx.font = "20px arial";
+      ctx.fillStyle = "black";
+      ctx.fillText("Binary Search", 190, 30);
+      ctx.clearRect(0, 0, 500, 300);
+      drawArray();
+      ctx.font = "20px arial";
+      ctx.fillStyle = "black";
+      ctx.fillText("Binary Search", 190, 30);
+      if (tempArray[middle] != target && startIndex < stopIndex) {
+        ctx.fillStyle = "cyan";
+        ctx.fillRect(
+          positionsX[middle],
+          300 - tempArray[middle] * 3,
+          28,
+          tempArray[middle] * 3
+        );
+        //adjust and shade in the search area
+        if (target < tempArray[middle]) {
+          stopIndex = middle - 1;
+          var i = startIndex;
+          for (var i = startIndex; i <= stopIndex; i++) {
+            ctx.clearRect(
+              positionsX[i],
+              300 - tempArray[i] * 3,
+              28,
+              tempArray[i] * 3
+            );
+            ctx.fillStyle = "grey";
+            ctx.fillRect(
+              positionsX[i],
+              300 - tempArray[i] * 3,
+              28,
+              tempArray[i] * 3
+            );
+          }
+        } else if (target > tempArray[middle]) {
+          startIndex = middle + 1;
+          for (var i = startIndex; i <= stopIndex; i++) {
+            ctx.clearRect(
+              positionsX[i],
+              300 - tempArray[i] * 3,
+              28,
+              tempArray[i] * 3
+            );
+            ctx.fillStyle = "grey";
+            ctx.fillRect(
+              positionsX[i],
+              300 - tempArray[i] * 3,
+              28,
+              tempArray[i] * 3
+            );
+          }
+        }
+        middle = Math.floor((stopIndex + startIndex) / 2);
+      } else if (target == tempArray[middle]) {
+        ctx.fillStyle = "green";
+        ctx.fillRect(
+          positionsX[middle],
+          300 - tempArray[middle] * 3,
+          28,
+          tempArray[middle] * 3
+        );
+        clearTimeout(draw);
+      }
+      counter++;
+      setTimeout(draw, speed);
+    })();
+  } else if (algo == "bubble") {
+    var canvas = document.getElementById("canvas");
+    var delay = speed;
+    var ctx = canvas.getContext("2d");
+    var i = 0;
+    ctx.fillStyle = "green";
+    ctx.fillRect(
+      positionsX[i],
+      300 - tempArray[i] * 3,
+      28,
+      tempArray[i] * 3
+    );
+    ctx.fillStyle = "orange";
+    ctx.fillRect(
+      positionsX[i + 1],
+      300 - tempArray[i + 1] * 3,
+      28,
+      tempArray[i + 1] * 3
+    );
+    var swapped;
+    var finish = false;
+    await sleep(delay);
+    (draw = function() {
+      ctx.font = "Calibri 20px;";
+      ctx.fillstyle = "black";
+      ctx.fillText("Bubble Sort", 190, 30);
+      drawArray();
+      if (i < tempArray.length - 1) {
+        if (tempArray[i] > tempArray[i + 1]) {
+          ctx.clearRect(0, 0, 500, 300);
+          var temp = tempArray[i];
+          tempArray[i] = tempArray[i + 1];
+          tempArray[i + 1] = temp;
+          drawArray();
+        } else {
+          if (isSorted(tempArray)) {
+            clearTimeout(draw);
+            var stop = true;
+          }
+        }
+        if (!stop) {
+          ctx.fillStyle = "green";
+          ctx.fillRect(
+            positionsX[i + 1],
+            300 - tempArray[i + 1] * 3,
+            28,
+            tempArray[i + 1] * 3
+          );
+          ctx.fillStyle = "orange";
+          ctx.fillRect(
+            positionsX[i + 2],
+            300 - tempArray[i + 2] * 3,
+            28,
+            tempArray[i + 2] * 3
+          );
+        }
+
+        i++;
+      } else {
+        i = 0;
+        ctx.fillStyle = "green";
+        ctx.fillRect(
+          positionsX[i],
+          300 - tempArray[i] * 3,
+          28,
+          tempArray[i] * 3
+        );
+        ctx.fillStyle = "orange";
+        ctx.fillRect(
+          positionsX[i + 1],
+          300 - tempArray[i + 1] * 3,
+          28,
+          tempArray[i + 1] * 3
+        );
+      }
+      setTimeout(draw, speed);
+    })();
+  } else if (algo == "selection") {
+    var canvas = document.getElementById("canvas");
+    var ctx = canvas.getContext("2d");
+    var delay = speed;
+    var min;
+    var i = 0;
+    var min = 0;
+    var j = 0;
+    (function draw() {
+      drawArray();
+      ctx.fillStyle = "orange";
+      ctx.fillRect(
+        positionsX[min],
+        300 - tempArray[min] * 3,
+        28,
+        tempArray[min] * 3
+      );
+      if (i <= tempArray.length) {
+        ctx.fillStyle = "green";
+        ctx.fillRect(
+          positionsX[i],
+          300 - tempArray[i] * 3,
+          28,
+          tempArray[i] * 3
+        );
+        if (tempArray[i] < tempArray[min]) {
+          ctx.clearRect(
+            positionsX[min],
+            300 - tempArray[min] * 3,
+            28,
+            tempArray[min] * 3
+          );
+          ctx.fillStyle = "#3399ff";
+          ctx.fillRect(
+            positionsX[min],
+            300 - tempArray[min] * 3,
+            28,
+            tempArray[min] * 3
+          );
+          min = i;
+          ctx.fillStyle = "orange";
+          ctx.fillRect(
+            positionsX[i],
+            300 - tempArray[i] * 3,
+            28,
+            tempArray[i] * 3
+          );
+        }
+        i++;
+      } else {
+        if (j == tempArray.length) {
+          clearTimeout(draw);
+        }
+        if (tempArray[min] == tempArray[j]) {
+          drawArray();
+
+          console.log(tempArray);
+          i = 1 + j;
+          j++;
+          min = j;
+        } else {
+          var temp = tempArray[j];
+          tempArray[j] = tempArray[min];
+          tempArray[min] = temp;
+
+          drawArray();
+
+          console.log(tempArray);
+          i = 1 + j;
+          j++;
+          min = j;
+        }
+      }
+      setTimeout(draw, speed);
+    })();
+  } else if (algo == "insertion") {
+    var delay = speed;
+    var canvas = document.getElementById("canvas");
+    var ctx = canvas.getContext("2d");
+    var leftIndex = 0;
+    var rightIndex = 1;
+    var counter = 1;
+    var repeat = true;
+    (function draw() {
+      delay = document.getElementById("slider").value;
+      drawArray();
+      if (leftIndex < 0) {
+        leftIndex = counter - 1;
+        rightIndex = counter;
+      }
+      if (tempArray[leftIndex] > tempArray[rightIndex]) {
+        drawArray();
+        ctx.fillStyle = "green";
+        ctx.fillRect(
+          positionsX[leftIndex],
+          300 - tempArray[leftIndex] * 3,
+          28,
+          tempArray[leftIndex] * 3
+        );
+        ctx.fillRect(
+          positionsX[rightIndex],
+          300 - tempArray[rightIndex] * 3,
+          28,
+          tempArray[rightIndex] * 3
+        );
+        var temp = tempArray[rightIndex];
+        tempArray[rightIndex] = tempArray[leftIndex];
+        tempArray[leftIndex] = temp;
+
+        leftIndex--;
+        rightIndex--;
+      } else if (tempArray[leftIndex] <= tempArray[rightIndex]) {
+        drawArray();
+        ctx.fillStyle = "red";
+        ctx.fillRect(
+          positionsX[leftIndex],
+          300 - tempArray[leftIndex] * 3,
+          28,
+          tempArray[leftIndex] * 3
+        );
+        ctx.fillRect(
+          positionsX[rightIndex],
+          300 - tempArray[rightIndex] * 3,
+          28,
+          tempArray[rightIndex] * 3
+        );
+        counter++;
+        leftIndex = counter - 1;
+        rightIndex = counter;
+      }
+      if (counter == 15) {
+        repeat = false;
+        drawArray();
+      }
+      if (repeat == false) {
+        clearTimeout(draw);
+      }
+      setTimeout(draw, speed);
+    })();
+  }
+}
